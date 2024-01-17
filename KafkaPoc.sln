@@ -9,11 +9,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{10BC0B5B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{B9F26F94-5AEE-489C-966B-430DE14E6881}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafka", "src\Kafka\Kafka.csproj", "{2523787E-A753-4F9E-97ED-98341AECE43C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kafka", "src\Kafka\Kafka.csproj", "{2523787E-A753-4F9E-97ED-98341AECE43C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{E4EAC316-FD37-415D-B0E8-FA69D9E4B97F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaTests", "tests\KafkaTests\KafkaTests.csproj", "{A05B8829-E42D-41AD-97EE-E58F9C29450B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KafkaTests", "tests\KafkaTests\KafkaTests.csproj", "{A05B8829-E42D-41AD-97EE-E58F9C29450B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D526A1C7-359B-407A-B4BD-9A3C1D898227}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
